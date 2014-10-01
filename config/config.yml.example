@@ -4,4 +4,5 @@ SSL: false
 IRC_CHANNELS: ['#gitlab-irc']
 IRC_NICK: 'GitLab'
 IRC_REALNAME: 'GitLabBot'
+IRC_PASSWORD: false
 DEBUG: false

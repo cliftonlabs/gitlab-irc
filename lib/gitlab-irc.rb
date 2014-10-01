@@ -17,6 +17,9 @@ $bot = Cinch::Bot.new do
     c.user = $config['IRC_NICK']
     c.realname = $config['IRC_REALNAME']
     c.verbose = $config['DEBUG']
+    if $config['IRC_PASSWORD']
+        c.password = $config['IRC_PASSWORD']
+    end
   end
 
   on :message, "hello" do |m|
